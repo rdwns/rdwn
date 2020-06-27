@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "init"
+date:   2020-06-28 2:27:51 +0530
+categories: chores
+---
+
+Well, here goes nothing. Setting up Jekyll was a breeze. I would highly recommend Jekyll for a blog. I have been dabbling in DevOps lately and my posts would mostly be about DevOps I guess. Or maybe I'll make some of my notes from Notion public, they're all over the place and don't cover any single technology as such but it might be a good idea.
+
+Godspeed.

@@ -1,0 +1,58 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+.avatar {
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+.rdwn-logo{
+    max-width: 80px;
+}
+
+.home-container{
+    display:flex;
+    // border: 2px dotted black;
+    max-width: 800px;
+    // margin-top: 30px;
+    // margin-bottom: 30px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  #left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 2 1;
+    // padding: 20px;
+    // background-color: red;
+  }
+
+  #right-container{
+    // flex: 1 1;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background-color: green;
+  }
+
+#social-list{
+    margin-top: 10px;
+
+}
+#social-list>ul,li{
+        display: inline;
+        list-style:none;
+        margin:0;
+        padding:0;
+
+}
+
+#college {
+    display: inline;
+}

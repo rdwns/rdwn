@@ -27,8 +27,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rdwnshfi
 github_username:  rdwns
 
+header_pages:
+  - about.markdown
+  - work.markdown
+
 # Build settings
 theme: minima
+minima:
+  skin: classic
 plugins:
   - jekyll-feed
 
