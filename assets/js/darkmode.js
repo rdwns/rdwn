@@ -1,6 +1,6 @@
-let sun = '<img src="/assets/sun.svg" width="20"></img>';
+let sun = '<img src="/assets/sun.png" width="40px"></img>';
 console.log(sun);
-let moon = '<img src="/assets/moon.svg" width="20"></img>';
+let moon = '<img src="/assets/moon.png" width="40px"></img>';
 
 let toggle = document.getElementById('theme-toggle');
 const theme = localStorage.getItem('theme');
