@@ -339,6 +339,10 @@ body[data-theme="dark"]{
 }
 
 
+#theme-toggle{
+  display: absolute;
+}
+
 @media screen and (max-width: 620px) {
 
   body {
