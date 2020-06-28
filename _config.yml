@@ -35,6 +35,8 @@ header_pages:
 theme: minima
 minima:
   skin: classic
+
+palette: 
 plugins:
   - jekyll-feed
 

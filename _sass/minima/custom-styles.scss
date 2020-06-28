@@ -27,6 +27,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex: 2 1;
+    order: 1;
     // padding: 20px;
     // background-color: red;
   }
@@ -35,6 +36,7 @@
     // flex: 1 1;
     display: flex;
     padding: 20px;
+    order: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -55,4 +57,30 @@
 
 #college {
     display: inline;
+}
+
+
+@media screen and (max-width: 620px) {
+
+
+  body{
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+  .home-container{
+    flex-direction: column;
+  }
+
+  #left-container{
+    text-align: justify;
+    align-items: center;
+  }
+
+  #right-container{
+
+    order: 0;
+
+  }
+
 }

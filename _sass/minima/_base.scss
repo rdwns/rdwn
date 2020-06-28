@@ -1,5 +1,9 @@
 html {
   font-size: $base-font-size;
+  --link-color: rgb(0, 112, 201);
+  --main-background-color: hsl(0, 0%, 90%);
+  --main-text-color: hsl(0, 0%, 20%);
+
 }
 
 /**
@@ -33,6 +37,8 @@ body {
   flex-direction: column;
   overflow-wrap: break-word;
 }
+
+
 
 
 
