@@ -10,9 +10,6 @@ const theme = localStorage.getItem('theme');
       toggle.innerHTML=sun;
       }
 
-
-
-
     const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
 
     if (theme === "dark") {
@@ -22,11 +19,11 @@ const theme = localStorage.getItem('theme');
     } else if  (userPrefers === "dark") {
       document.body.setAttribute('data-theme', 'dark');
       window.localStorage.setItem('theme', 'dark');
-      toggle.innerHTML = moon;
+      toggle.innerHTML = sun;
     } else {
       document.body.setAttribute('data-theme', 'light');
       window.localStorage.setItem('theme', 'light');
-      toggle.innerHTML = sun;
+      toggle.innerHTML = moon;
     }
 
     function modeSwitcher() {
