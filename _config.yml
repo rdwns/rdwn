@@ -28,7 +28,6 @@ twitter_username: rdwnshfi
 github_username:  rdwns
 
 header_pages:
-  - about.markdown
   - work.markdown
 
 # Build settings
@@ -36,7 +35,7 @@ theme: minima
 minima:
   skin: classic
 
-palette: 
+palette:
 plugins:
   - jekyll-feed
 

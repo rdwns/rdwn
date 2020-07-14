@@ -7,9 +7,9 @@ layout: home
 
 <div class="home-container">
   <div id="left-container">
-  <div><h1>Hi, I'm Ridwan</h1></div>
+  <div><h1>Hi, I'm Ridwan </h1><div id="hand" class="wave-hand"></div></div>
    <div class="bio">
-   Currently an undergraduate at <a href="https://bmsit.ac.in">BMS Institute of Technology</a>, majoring in Computer Science. I love to dabble in <a href="https://rdwn.design">design</a> and I'm focused on building beautiful, bold and accessible software with the attitude of a craftsman. This is my own <a href="https://dev.to/jbranchaud/the-digital-garden-l10">"digital garden"</a> where I primarily share whatever knowledge I pick up over the time, mostly as a reference for the future me.
+   Currently an undergraduate at <a class="red-bg" href="https://bmsit.ac.in">BMS Institute of Technology</a>, majoring in Computer Science. I love to dabble in <a href="https://rdwn.design" class="green-bg">design</a> and I'm focused on building beautiful, bold and accessible software with the attitude of a craftsman. This is my own <a class="blue-bg" href="https://dev.to/jbranchaud/the-digital-garden-l10">"digital garden"</a> where I primarily share whatever knowledge I pick up over the time, mostly as a reference for the future me.
    </div>
    <div id="social-list">
    <ul>
