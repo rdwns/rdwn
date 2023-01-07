@@ -1,5 +1,3 @@
-#MLOps Gone Wild: Taming the Machine Learning Beast
-
 As the new year begins, I can't believe it's been two years since I graduated and started working as a Cloud Engineer at [Thoucentric](https://thoucentric.com/). These past few years have been filled with so much learning and growth, both personally and professionally. I bought this domain a few years ago with the intention of using it to reflect on my work, but I've realized that I haven't been doing much reflecting at all - the fact that I only have two blog posts published being a proof of that. I've been busy with work and haven't made the time to write about it. But today, I want to change that. I'm not usually one for New Year's resolutions, but something inside me just clicked and I feel like now is the time to make a change.
 
 
