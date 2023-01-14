@@ -28,6 +28,10 @@ $dark-table-header-border:   lighten($background-color, 21%) !default;
 $dark-table-border-color:    $border-color-01 !default;
 
 
+$link-base-color: #1c1b23;
+$link-hover-color: #3FA2A0;
+
+
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
 // List of tokens: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
 // Some colors come from Material Theme Darker:
