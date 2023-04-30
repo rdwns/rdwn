@@ -397,7 +397,8 @@ body[data-theme="dark"]{
 }
 
 .emoji {
-  display: inline-block;
+  display: flex;
+  position: relative;
   vertical-align: text-top;
   background-size: contain;
   background-repeat: no-repeat;
@@ -405,9 +406,17 @@ body[data-theme="dark"]{
 }
 
 
-.wave-hand {
+
+h1::after {
+  content: "";
+  display: inline-block;
   background-image: url("../../assets/wave.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-left: 10px;
+  width: 1.3em;
+  height: 1.3em;
+  animation: wave 2s ease-in-out infinite;
   cursor: pointer;
 }
 
