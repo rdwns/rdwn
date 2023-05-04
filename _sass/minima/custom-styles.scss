@@ -407,7 +407,7 @@ body[data-theme="dark"]{
 
 
 
-h1::after {
+.greeting::after {
   content: "";
   display: inline-block;
   background-image: url("../../assets/wave.png");
