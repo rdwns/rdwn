@@ -172,18 +172,24 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  // border: 1px solid $border-color-01;
+  border: 1px solid $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
+  white-space : pre-wrap !important;
+  overflow-x: scroll;
+
+
 }
 
 code {
   padding: 1px 5px;
+
+
 }
 
 pre {
   padding: 8px 12px;
-  overflow-x: auto;
+  overflow-x: scroll;
 
   > code {
     border: 0;
@@ -200,6 +206,12 @@ pre {
   .highlighter-rouge & {
     background: $code-background-color;
   }
+}
+
+pre.highlight {
+  word-wrap: normal;
+  overflow-x: auto;
+  white-space: pre;
 }
 
 

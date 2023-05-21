@@ -6,7 +6,7 @@ tags: machine learning mlops
 categories: mlops
 ---
 
-Working with any ML project is like raising a toddler. At first, you're just trying to figure out how to keep it from breaking everything in the house. Then, you spend some time teaching it how to do simple tasks and when it has learned to be self-sufficient, you sit back and watch proudly as it successfully goes about it’s life. This doesn’t mean you can just leave it as it is, you to continue to take care of it for a long time to ensure it thrives.
+Working with any ML project is like raising a toddler. At first, you're just trying to figure out how to keep it from breaking everything in the house. Then, you spend some time teaching it how to do simple tasks and when it has learned to be self-sufficient, you sit back and watch proudly as it successfully goes about it’s life. This doesn’t mean you can just leave it as it is, you need to continue to take care of it for a long time to ensure it thrives.
 
 Working on any machine learning project is pretty much the same, except for changing the diapers maybe.
 
