@@ -168,24 +168,35 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
+
+ pre {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  border-radius: 3px;
+  font-size: 85%;
+  padding: 30px 16px;
+  background: rgb(247, 246, 243) none repeat scroll 0% 0%;
+}
+
+
+
 code {
-  font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
   border-radius: 3px;
+
+  color: #EB5757;
   background-color: $code-background-color;
   white-space : pre-wrap !important;
   overflow-x: scroll;
 
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: normal;
+ 
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
 
 }
 
-code {
-  padding: 1px 5px;
-
-
-}
 
 pre {
   padding: 8px 12px;

@@ -17,6 +17,8 @@ layout: home
    <ul>
    <li><a href="https://www.github.com/rdwns">github</a></li>
    <li><a href="https://www.twitter.com/rdwnshfi">twitter</a></li>
+   <li><a href="https://www.linkedin.com/in/rdwn">linkedin</a></li>
+
 
   </ul>
 
