@@ -2,8 +2,8 @@
 layout: post
 title: Saving Your Ass(ets) in Production using Postman Pre-Request Scripts
 date: 2025-01-16 
+image: save-ass-prod.jpg
 categories: 
-  - api
   - development
   - tools
 tags:

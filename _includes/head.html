@@ -6,6 +6,20 @@
   <link rel=”stylesheet” href="/assets/css/reset.css">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.image %}{{ site.url }}/assets/images/{{ page.image }}{% else %}{{ site.url }}/assets/images/default-preview.jpg{% endif %}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{% if page.image %}{{ site.url }}/assets/images/{{ page.image }}{% else %}{{ site.url }}/assets/images/default-preview.jpg{% endif %}">
+
   
 
 
