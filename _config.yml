@@ -23,7 +23,7 @@ email: hello@rdwn.dev
 description: >- # this means to ignore newlines until "baseurl:"
   minimalist. designer. dev
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rdwn.dev
+url: "https://rdwn.dev"
 twitter_username: rdwnshfi
 github_username:  rdwns
 
