@@ -1,28 +1,49 @@
 ---
 layout: page
-title: Proof of work
+title: Proof of Work
 permalink: /work/
 ---
 
-Fundamentally you could just go to LinkedIn and grab all of this information, but just putting it out here in case you’re lazy
+_(a.k.a. places I’ve been, stuff I’ve built, and tech I’ve wrestled into submission)_
 
-#### Thoucentric `Dec 20 - Present`
+You could just stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but in case you're lazy here’s the TL;DR version of my career so far.  
 
-I’m the infrastructure wizard in the company, we use Azure but our infrastructure is setup in a cloud agnostic way which means little to no reliance on managed services and everything runs inside Docker containers and Kubernetes Clusters. 
+Need the corporate stuff? [Here’s the full resume](https://rdwn.dev/Ridwan_Resume.pdf).
 
-I have built a couple of in-house tools, the most notable being **ThouSecure** which is basically a CLI tool that performs automated vulnerability assessments and applies necessary security patches and configurations whenever a new VM is deployed.
+---
 
-**Awards and Honours:**
+### 💸 Prodigy Finance (Oct 2024 – Present)
+**London (but mostly remote)**  
 
-In recognition of my efforts, I've been awarded a couple of shiny trophies during my time here at Thoucentric.
+Running the backend show for the Payments Systems that moves millions in cross-border student loan payments, without breaking a sweat while keeping compliance happy.
 
-- **Making a Difference Award:** For contributions towards client outreach and business growth
-- **Spirit Leader:** For instrumental contributions towards the development of Cloud BI and MLOps capabilities in the organisation
-- **Atlas Award:** For organisational contributions beyond project delivery.
+Part of the AI founding fathers within the org. Built stuff, made slides, named things, felt important. Laid the foundation of Prodigy's first AI-powered document verification service, saved a lots of ops hours. 
 
+---
 
-#### Freelance Developer and Cloud Consultant `Jan 15 - Dec 2020`
+### 🧙 Thoucentric (Dec 2020 – Oct 2024)
+**Bengaluru + Cloud**
 
-Successfully migrated legacy systems to cloud, reducing operational costs by about 50% by using cloud services from AWS, Azure, and Google Cloud Platform
+These were my infrastructure wizard years. I worked across multiple global projects for the Fortune 500: pricing, tax reporting, demand forecasting - you name it. Most of my days were spent building backend systems that made data behave and infra that scaled without drama.
 
-Built and managed websites on dedicated Virtual Private Servers within AWS, overseeing critical server administration tasks such as configuring email services, resolving network and security issues, and conducting routine maintenance.
+I got my hands dirty with Kubernetes, Azure, Databricks, FastAPI, MLFlow, Jenkins... the whole gang. Somewhere along the way, I also built an internal security automation CLI (ThouSecure) that made our security team sleep easier.
+
+Also picked up some shiny trophies along the way:
+- **Atlas Award**: carried stuff nobody else wanted to
+- **Spirit Leader**: made MLOps and Cloud BI sound cool
+- **Making a Difference**: helped bag new clients and projects
+
+---
+
+### 🌱 Freelance Developer  (2015 – 2020)
+
+My indie dev arc. Figured out as I went, mostly. I worked with small businesses, helped them move to the cloud, set up websites, managed servers, and Googled my way through some pretty gnarly stuff at the time.
+
+I was also deep into graphic design back then: mockups, logos, pitch decks, whatever needed a visual touch. It taught me how aesthetics and function go hand-in-hand, something I still carry into my work today.
+
+Not everything I built during this era was perfect (some of it was held together by duct tape and cron jobs), but this phase shaped how I think, debug, design, and deliver.
+
+---
+
+Long version with job titles and bullet points [right here](https://rdwn.dev/Ridwan_Resume.pdf)
+
