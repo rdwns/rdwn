@@ -11,7 +11,7 @@ layout: home
   <div id="hand" class="wave-hand emoji"></div>
   </div>
    <div class="bio">
-  I am a design-minded software engineer with expertise in architecting and building robust cloud infrastructure and backend systems for AI applications. With experience in MLOps and Generative AI, I have designed and implemented scalable ML systems that power AI initiatives for Fortune 500 companies. I firmly believe that software should not only work like a charm, but also look like one so I like to add a dash of design to everything I do. This blog is my personal <a class="blue-bg" href="https://dev.to/jbranchaud/the-digital-garden-l10">"digital garden"</a>, where I document insights and lessons from my journey, primarily as a resource for my future self—and for anyone navigating similar paths.
+  I am a design-minded software engineer with expertise in architecting and building robust cloud infrastructure and backend systems for AI applications. These days, I work on the core payments system at Prodigy Finance, helping move millions of dollars across borders reliably. Along the way, I’ve built scalable systems in MLOps, GenAI and Predictive Analytics - sometimes for startups, sometimes for Fortune 500s. I firmly believe that software should not only work like a charm, but also look like one so I like to add a dash of design to everything I do. This blog is my personal <a class="blue-bg" href="https://dev.to/jbranchaud/the-digital-garden-l10">"digital garden"</a>, where I document insights and lessons from my journey, primarily as a resource for my future self and for anyone navigating similar paths.
    </div>
    <div id="social-list">
    <ul>
