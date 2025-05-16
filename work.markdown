@@ -8,7 +8,7 @@ _(a.k.a. places I’ve been, stuff I’ve built, and tech I’ve wrestled into s
 
 You could just stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but in case you're lazy here’s the TL;DR version of my career so far.  
 
-Need the corporate stuff? [Here’s the full resume](https://rdwn.dev/Ridwan_Resume.pdf).
+Need the corporate stuff? [Here’s the full resume](https://drive.google.com/file/d/1Z46zbZbut03Dicurths-8izdBIOS7OQA/view).
 
 ---
 
@@ -45,5 +45,5 @@ Not everything I built during this era was perfect (some of it was held together
 
 ---
 
-Long version with job titles and bullet points [right here](https://rdwn.dev/Ridwan_Resume.pdf)
+Long version with job titles and bullet points [right here](https://drive.google.com/file/d/1Z46zbZbut03Dicurths-8izdBIOS7OQA/view)
 
