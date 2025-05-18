@@ -1,0 +1,20 @@
+#!/bin/bash
+TITLE=$1
+DATE=$(date +"%Y-%m-%d")
+SAFE_TITLE=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g' | sed 's/^-//' | sed 's/-$//')
+
+FILENAME="../_posts/${DATE}-${SAFE_TITLE}.md"
+
+cat > "$FILENAME" <<EOF
+---
+layout: post
+title: "$TITLE"
+date: $(date +"%Y-%m-%d %H:%M:%S %z")
+categories: []
+tags: []
+---
+
+Your content goes here.
+EOF
+
+echo "✅ Post created: $FILENAME"
