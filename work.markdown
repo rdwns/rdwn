@@ -4,46 +4,56 @@ title: Proof of Work
 permalink: /work/
 ---
 
-_(a.k.a. places I’ve been, stuff I’ve built, and tech I’ve wrestled into submission)_
+<p class="work-subtitle">a.k.a. places I've been, stuff I've built, and tech I've wrestled into submission.</p>
 
-You could just stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but in case you're lazy here’s the TL;DR version of my career so far.  
+You could just stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but in case you're lazy, here's the TL;DR version of my career so far. Need the corporate stuff? [Here's the full resume](/assets/resume.pdf).
 
-Need the corporate stuff? [Here’s the full resume](https://drive.google.com/file/d/1Z46zbZbut03Dicurths-8izdBIOS7OQA/view).
+<div class="work-entry" markdown="1">
 
----
+### Careem, an Uber company
 
-### 💸 Prodigy Finance (Oct 2024 – Present)
-**London (but mostly remote)**  
+<p class="work-meta">Dubai · Jan 2026 – Present</p>
 
-Running the backend show for the Payments Systems that moves millions in cross-border student loan payments, without breaking a sweat while keeping compliance happy.
+Started and now lead Careem's AI Center of Excellence. Building the team and the platform (Astra) from scratch, powering AI use cases across logistics, marketplace, and care operations serving 70M+ customers in 10 countries.
 
-Part of the AI founding fathers within the org. Built stuff, made slides, named things, felt important. Laid the foundation of Prodigy's first AI-powered document verification service, saved a lots of ops hours. 
+</div>
 
----
+<div class="work-entry" markdown="1">
 
-### 🧙 Thoucentric (Dec 2020 – Oct 2024)
-**Bengaluru + Cloud**
+### Prodigy Finance
 
-These were my infrastructure wizard years. I worked across multiple global projects for the Fortune 500: pricing, tax reporting, demand forecasting - you name it. Most of my days were spent building backend systems that made data behave and infra that scaled without drama.
+<p class="work-meta">London · Oct 2024 – Jan 2026</p>
 
-I got my hands dirty with Kubernetes, Azure, Databricks, FastAPI, MLFlow, Jenkins... the whole gang. Somewhere along the way, I also built an internal security automation CLI (ThouSecure) that made our security team sleep easier.
+Worked on the core payments system that moves millions in cross-border student loan disbursements monthly. Kicked off the company's GenAI function and shipped the first GenAI-powered microservice for automated document verification, cutting 1000+ manual processing hours monthly.
 
-Also picked up some shiny trophies along the way:
-- **Atlas Award**: carried stuff nobody else wanted to
-- **Spirit Leader**: made MLOps and Cloud BI sound cool
-- **Making a Difference**: helped bag new clients and projects
+</div>
 
----
+<div class="work-entry" markdown="1">
 
-### 🌱 Freelance Developer  (2015 – 2020)
+### Thoucentric
 
-My indie dev arc. Figured out as I went, mostly. I worked with small businesses, helped them move to the cloud, set up websites, managed servers, and Googled my way through some pretty gnarly stuff at the time.
+<p class="work-meta">Bengaluru + Cloud · Dec 2020 – Oct 2024</p>
 
-I was also deep into graphic design back then: mockups, logos, pitch decks, whatever needed a visual touch. It taught me how aesthetics and function go hand-in-hand, something I still carry into my work today.
+My infrastructure wizard years. Built backend systems and ML infrastructure across multiple Fortune 500 engagements: pricing intelligence for Philip Morris across 42 markets, tax reporting for Unilever spanning 113 countries, and demand forecasting for Procter & Gamble. Most of my days were spent making data behave and infra scale without drama.
 
-Not everything I built during this era was perfect (some of it was held together by duct tape and cron jobs), but this phase shaped how I think, debug, design, and deliver.
+Picked up some trophies along the way:
 
----
+<ul class="awards">
+<li><strong>Atlas Award</strong> — carried stuff nobody else wanted to</li>
+<li><strong>Spirit Leader</strong> — made MLOps and Cloud BI sound cool</li>
+<li><strong>Making a Difference</strong> — helped bag new clients and projects</li>
+</ul>
 
-Long version with job titles and bullet points [right here](https://drive.google.com/file/d/1Z46zbZbut03Dicurths-8izdBIOS7OQA/view)
+</div>
 
+<div class="work-entry" markdown="1">
+
+### Freelance Developer
+
+<p class="work-meta">Bengaluru · 2015 – 2020</p>
+
+My indie dev arc. Cloud infrastructure, web apps, and server admin for small businesses. Also did a lot of graphic design: mockups, logos, pitch decks. Not everything survived (some of it was held together by duct tape and cron jobs), but this phase shaped how I think, debug, design, and deliver.
+
+</div>
+
+<p class="work-footer-link">Long version with job titles and bullet points <a href="/assets/resume.pdf">right here</a>.</p>

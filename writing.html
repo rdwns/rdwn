@@ -1,0 +1,26 @@
+---
+layout: default
+title: Writing
+permalink: /writing/
+---
+
+<header class="archive-header">
+  <h1>Writing</h1>
+</header>
+
+{%- assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+{%- for year in postsByYear -%}
+<div class="year-group">
+  <p class="year-label">{{ year.name }}</p>
+  <ul class="post-list">
+    {%- for post in year.items -%}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-title">{{ post.title }}</span>
+        <span class="post-date">{{ post.date | date: "%b %d" }}</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
+{%- endfor -%}

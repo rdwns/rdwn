@@ -2,60 +2,81 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<section class="hero">
 
-  {{ content }}
+  <div class="hero-name-row fade-in">
+    <h1 class="hero-name" id="hero-name">Ridwan Ul Haq</h1>
+    <button class="theme-toggle home-theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+      <svg class="theme-icon sun" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="4.22" x2="19.78" y2="5.64"/></svg>
+      <svg class="theme-icon moon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
 
+  <div class="identity fade-in d1">
+    <span class="status-dot"></span>
+    <span class="identity-now">currently building AI at Careem</span>
+  </div>
 
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
+  <p class="hero-bio fade-in d2">
+    I build infrastructure, AI systems, and things that work.
+    Previously shipped ML platforms at Fortune&nbsp;500 scale.
+    I believe software should work like a charm — and
+    <a href="/about">look like one</a>.
+  </p>
 
+  <nav class="hero-nav fade-in d3">
+    <a href="/writing">writing</a>
+    <span class="nav-dot">&middot;</span>
+    <a href="/work">work</a>
+    <span class="nav-dot">&middot;</span>
+    <a href="/about">about</a>
+  </nav>
 
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+  <div class="say-hi fade-in d3">
+    <button class="say-hi-trigger" id="say-hi-trigger" type="button">
+      say hi <span class="say-hi-wave">👋</span> <span class="say-hi-arrow">&rarr;</span>
+    </button>
+    <span class="say-hi-links" id="say-hi-links">
+      {%- assign sep = false -%}
+      {%- if site.author.github -%}
+        {%- if sep -%}<span class="social-dot">&middot;</span>{%- endif -%}
+        <a href="https://github.com/{{ site.author.github }}" onclick="event.stopPropagation()">github</a>
+        {%- assign sep = true -%}
+      {%- endif -%}
+      {%- if site.author.twitter -%}
+        {%- if sep -%}<span class="social-dot">&middot;</span>{%- endif -%}
+        <a href="https://twitter.com/{{ site.author.twitter }}" onclick="event.stopPropagation()">twitter</a>
+        {%- assign sep = true -%}
+      {%- endif -%}
+      {%- if site.author.linkedin -%}
+        {%- if sep -%}<span class="social-dot">&middot;</span>{%- endif -%}
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" onclick="event.stopPropagation()">linkedin</a>
+        {%- assign sep = true -%}
+      {%- endif -%}
+      {%- if site.author.email -%}
+        {%- if sep -%}<span class="social-dot">&middot;</span>{%- endif -%}
+        <a href="mailto:{{ site.author.email }}" onclick="event.stopPropagation()">email</a>
+      {%- endif -%}
+    </span>
+  </div>
+
+</section>
+
+<div class="section-break fade-in d4"></div>
+
+<section class="fade-in d4">
+  <ul class="post-list">
+    {%- for slug in site.selected_posts -%}
+      {%- assign post = site.posts | where_exp: "p", "p.slug == slug" | first -%}
+      {%- if post -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        <a href="{{ post.url | relative_url }}">
+          <span class="post-title">{{ post.title }}</span>
+          <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
+        </a>
       </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
-
-</div>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+  <a href="/writing" class="all-posts-link">all posts &rarr;</a>
+</section>

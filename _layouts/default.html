@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-
   <body>
-
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    {%- if page.layout == 'home' -%}
+    <div class="page-shell">
+      {{ content }}
+      {%- include footer.html -%}
+    </div>
+    {%- else -%}
+    <div class="inner-layout">
+      {%- include mobile-nav.html -%}
+      {%- include sidebar.html -%}
+      <main class="inner-content">
         {{ content }}
-      </div>
-    </main>
+        {%- include footer.html -%}
+      </main>
+    </div>
+    {%- endif -%}
 
-    <!-- {%- include footer.html -%} -->
-
-
-   <script src="{{site.baseurl}}/assets/js/darkmode.js"></script>
-
-
-  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    {%- if page.layout == 'home' -%}
+    <script src="{{ '/assets/js/morph.js' | relative_url }}"></script>
+    {%- endif -%}
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   </body>
-
 </html>
