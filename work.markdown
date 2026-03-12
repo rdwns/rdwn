@@ -4,9 +4,8 @@ title: Proof of Work
 permalink: /work/
 ---
 
-<p class="work-subtitle">a.k.a. places I've been, stuff I've built, and tech I've wrestled into submission.</p>
 
-You could just stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but in case you're lazy, here's the TL;DR version of my career so far. Need the corporate stuff? [Here's the full resume](/assets/resume.pdf).
+You could stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but here's the short version. Full resume [right here](https://drive.google.com/file/d/1punFZ-KsWv14qWl00RFKrwh5oq79AR3K/view) if that's what you're into.
 
 <div class="work-entry" markdown="1">
 
@@ -14,7 +13,7 @@ You could just stalk me on [LinkedIn](https://linkedin.com/in/rdwn), but in case
 
 <p class="work-meta">Dubai · Jan 2026 – Present</p>
 
-Started and now lead Careem's AI Center of Excellence. Building the team and the platform (Astra) from scratch, powering AI use cases across logistics, marketplace, and care operations serving 70M+ customers in 10 countries.
+Started Careem's AI Center of Excellence from scratch and now lead the team. We're building Astra, the internal platform that powers AI across Careem's logistics and operations serving 70M+ customers, across 10 countries.
 
 </div>
 
@@ -24,7 +23,7 @@ Started and now lead Careem's AI Center of Excellence. Building the team and the
 
 <p class="work-meta">London · Oct 2024 – Jan 2026</p>
 
-Worked on the core payments system that moves millions in cross-border student loan disbursements monthly. Kicked off the company's GenAI function and shipped the first GenAI-powered microservice for automated document verification, cutting 1000+ manual processing hours monthly.
+Kicked off the company's GenAI function and shipped the first GenAI-powered service for automated document verification, cutting 1000+ manual processing hours monthly. Also worked on the core payments system that moves millions in cross-border student loan repayments monthly
 
 </div>
 
@@ -32,9 +31,9 @@ Worked on the core payments system that moves millions in cross-border student l
 
 ### Thoucentric
 
-<p class="work-meta">Bengaluru + Cloud · Dec 2020 – Oct 2024</p>
+<p class="work-meta">Bengaluru · Dec 2020 – Oct 2024</p>
 
-My infrastructure wizard years. Built backend systems and ML infrastructure across multiple Fortune 500 engagements: pricing intelligence for Philip Morris across 42 markets, tax reporting for Unilever spanning 113 countries, and demand forecasting for Procter & Gamble. Most of my days were spent making data behave and infra scale without drama.
+My infrastructure wizard years. Built backend systems and ML infrastructure across multiple Fortune 500 engagements: pricing intelligence for Philip Morris across 42 markets, tax reporting for Unilever spanning 113 countries, and demand forecasting for Procter & Gamble.
 
 Picked up some trophies along the way:
 
@@ -56,4 +55,4 @@ My indie dev arc. Cloud infrastructure, web apps, and server admin for small bus
 
 </div>
 
-<p class="work-footer-link">Long version with job titles and bullet points <a href="/assets/resume.pdf">right here</a>.</p>
+<p class="work-footer-link">Again, long version with job titles and bullet points <a href="https://drive.google.com/file/d/1punFZ-KsWv14qWl00RFKrwh5oq79AR3K/view">right here</a>.</p>
